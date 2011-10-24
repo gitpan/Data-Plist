@@ -60,7 +60,7 @@ use DateTime;
 use UNIVERSAL::require;
 
 use vars qw/$VERSION/;
-$VERSION = "0.1";
+$VERSION = "0.100_001";
 
 =head1 METHODS
 
@@ -267,7 +267,8 @@ L<XML::Writer>
 
 =head1 BUGS AND LIMITATIONS
 
-No XML reader is included at current.
+UIDs don't seem to be sufficiently well supported by the XML
+readers and writers.
 
 Please report any bugs or feature requests to
 C<bug-Data-Plist@rt.cpan.org>, or through the web interface at
@@ -276,6 +277,8 @@ L<http://rt.cpan.org>.
 =head1 AUTHORS
 
 Alex Vandiver and Jacky Chang.
+
+XML reader support added by Lubomir Rintel <lkundrak@v3.sk>
 
 Based on plutil.pl, written by Pete Wilson <wilsonpm@gamewood.net>
 

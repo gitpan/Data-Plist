@@ -14,5 +14,7 @@ requires('Scalar::Util');
 requires('UNIVERSAL::isa');
 requires('UNIVERSAL::require');
 requires('XML::Writer');
+requires('XML::Parser');
+test_requires ('Test::Deep');
 
 &WriteAll;
